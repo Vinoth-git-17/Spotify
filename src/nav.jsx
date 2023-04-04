@@ -37,7 +37,7 @@ const nav = () => {
              
            <div className='sm:hidden'>
               {/* mobile menu */}
-                 <img  className='ml-36 mr-12 mt-5 md:hidden' src={toggle ? close : menu} onClick={(()=> settoggle(prev => !prev))}  alt="" />
+                 <img  className='ml-36 mr-12 mt-5 md:hidden ' src={toggle ? close : menu} onClick={(()=> settoggle(prev => !prev))}  alt="" />
               
               <div className={`${toggle ? "block": "hidden"}`}>
                 <ul className='pt-10 sidebar text-white text-center font-poppins'>
